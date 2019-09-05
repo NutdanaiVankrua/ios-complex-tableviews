@@ -8,13 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		18D040C523216D0300EA3300 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D040C423216D0300EA3300 /* AppDelegate.swift */; };
-		18D040C723216D0300EA3300 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D040C623216D0300EA3300 /* ViewController.swift */; };
-		18D040CA23216D0300EA3300 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D040C823216D0300EA3300 /* Main.storyboard */; };
 		18D040CD23216D0300EA3300 /* ComplexTableViews.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18D040CB23216D0300EA3300 /* ComplexTableViews.xcdatamodeld */; };
 		18D040CF23216D0400EA3300 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18D040CE23216D0400EA3300 /* Assets.xcassets */; };
 		18D040D223216D0400EA3300 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D040D023216D0400EA3300 /* LaunchScreen.storyboard */; };
 		18D040DD23216D0500EA3300 /* ComplexTableViewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D040DC23216D0500EA3300 /* ComplexTableViewsTests.swift */; };
 		18D040E823216D0500EA3300 /* ComplexTableViewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D040E723216D0500EA3300 /* ComplexTableViewsUITests.swift */; };
+		18D040F723216DE300EA3300 /* MultiObjectTypesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D040F623216DE300EA3300 /* MultiObjectTypesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +36,6 @@
 /* Begin PBXFileReference section */
 		18D040C123216D0300EA3300 /* ComplexTableViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ComplexTableViews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18D040C423216D0300EA3300 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		18D040C623216D0300EA3300 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		18D040C923216D0300EA3300 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18D040CC23216D0300EA3300 /* ComplexTableViews.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ComplexTableViews.xcdatamodel; sourceTree = "<group>"; };
 		18D040CE23216D0400EA3300 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18D040D123216D0400EA3300 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +46,7 @@
 		18D040E323216D0500EA3300 /* ComplexTableViewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ComplexTableViewsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18D040E723216D0500EA3300 /* ComplexTableViewsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplexTableViewsUITests.swift; sourceTree = "<group>"; };
 		18D040E923216D0500EA3300 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18D040F623216DE300EA3300 /* MultiObjectTypesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiObjectTypesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +98,11 @@
 			isa = PBXGroup;
 			children = (
 				18D040C423216D0300EA3300 /* AppDelegate.swift */,
-				18D040C623216D0300EA3300 /* ViewController.swift */,
-				18D040C823216D0300EA3300 /* Main.storyboard */,
 				18D040CE23216D0400EA3300 /* Assets.xcassets */,
-				18D040D023216D0400EA3300 /* LaunchScreen.storyboard */,
-				18D040D323216D0400EA3300 /* Info.plist */,
 				18D040CB23216D0300EA3300 /* ComplexTableViews.xcdatamodeld */,
+				18D040D323216D0400EA3300 /* Info.plist */,
+				18D040D023216D0400EA3300 /* LaunchScreen.storyboard */,
+				18D040F523216DCB00EA3300 /* MultiObjectTypes */,
 			);
 			path = ComplexTableViews;
 			sourceTree = "<group>";
@@ -126,6 +123,14 @@
 				18D040E923216D0500EA3300 /* Info.plist */,
 			);
 			path = ComplexTableViewsUITests;
+			sourceTree = "<group>";
+		};
+		18D040F523216DCB00EA3300 /* MultiObjectTypes */ = {
+			isa = PBXGroup;
+			children = (
+				18D040F623216DE300EA3300 /* MultiObjectTypesViewController.swift */,
+			);
+			path = MultiObjectTypes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,7 +239,6 @@
 			files = (
 				18D040D223216D0400EA3300 /* LaunchScreen.storyboard in Resources */,
 				18D040CF23216D0400EA3300 /* Assets.xcassets in Resources */,
-				18D040CA23216D0300EA3300 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18D040CD23216D0300EA3300 /* ComplexTableViews.xcdatamodeld in Sources */,
-				18D040C723216D0300EA3300 /* ViewController.swift in Sources */,
+				18D040F723216DE300EA3300 /* MultiObjectTypesViewController.swift in Sources */,
 				18D040C523216D0300EA3300 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,14 +301,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		18D040C823216D0300EA3300 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				18D040C923216D0300EA3300 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		18D040D023216D0400EA3300 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
