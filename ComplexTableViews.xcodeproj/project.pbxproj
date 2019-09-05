@@ -17,6 +17,7 @@
 		18D040FA2321713800EA3300 /* Flight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D040F92321713800EA3300 /* Flight.swift */; };
 		18D040FC2321714100EA3300 /* Hotel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D040FB2321714100EA3300 /* Hotel.swift */; };
 		18D040FE2321714A00EA3300 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D040FD2321714A00EA3300 /* Car.swift */; };
+		18D041002321789C00EA3300 /* MultiObjectTypesUITableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D040FF2321789C00EA3300 /* MultiObjectTypesUITableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		18D040F92321713800EA3300 /* Flight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flight.swift; sourceTree = "<group>"; };
 		18D040FB2321714100EA3300 /* Hotel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hotel.swift; sourceTree = "<group>"; };
 		18D040FD2321714A00EA3300 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		18D040FF2321789C00EA3300 /* MultiObjectTypesUITableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiObjectTypesUITableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +138,7 @@
 			children = (
 				18D040F82321712300EA3300 /* Models */,
 				18D040F623216DE300EA3300 /* MultiObjectTypesViewController.swift */,
+				18D040FF2321789C00EA3300 /* MultiObjectTypesUITableViewCell.swift */,
 			);
 			path = MultiObjectTypes;
 			sourceTree = "<group>";
@@ -280,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18D041002321789C00EA3300 /* MultiObjectTypesUITableViewCell.swift in Sources */,
 				18D040FC2321714100EA3300 /* Hotel.swift in Sources */,
 				18D040CD23216D0300EA3300 /* ComplexTableViews.xcdatamodeld in Sources */,
 				18D040FE2321714A00EA3300 /* Car.swift in Sources */,
