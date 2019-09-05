@@ -98,10 +98,7 @@ class MultiObjectTypesViewController: UIViewController {
         tableView.estimatedRowHeight = 40
         tableView.rowHeight = UITableView.automaticDimension
         tableView.dataSource = self
-    }
-    
-    override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(animated)
+        tableView.delegate = self
         tableView.reloadData()
     }
     
@@ -171,6 +168,31 @@ extension MultiObjectTypesViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         return list[section].name
+    }
+    
+}
+
+// MARK: - TableView Delegate
+
+extension MultiObjectTypesViewController: UITableViewDelegate {
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {let desc: String
+        switch list[indexPath.section].getItem(at: indexPath.row) {
+        case .flight(let flight):
+            desc = String(format: "%@, %@", flight.code, flight.plane)
+        case .hotel(let hotel):
+            desc = String(format: "%@ - %@", hotel.name, hotel.city)
+        case .car(let car):
+            desc = String(format: "%@ / %@", car.brand, car.engine)
+        }
+        
+        let alert = UIAlertController(
+            title: "Item",
+            message: desc,
+            preferredStyle: .alert
+        )
+        alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+        present(alert, animated: true, completion: nil)
     }
     
 }
