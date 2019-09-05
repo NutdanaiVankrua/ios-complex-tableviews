@@ -14,6 +14,9 @@
 		18D040DD23216D0500EA3300 /* ComplexTableViewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D040DC23216D0500EA3300 /* ComplexTableViewsTests.swift */; };
 		18D040E823216D0500EA3300 /* ComplexTableViewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D040E723216D0500EA3300 /* ComplexTableViewsUITests.swift */; };
 		18D040F723216DE300EA3300 /* MultiObjectTypesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D040F623216DE300EA3300 /* MultiObjectTypesViewController.swift */; };
+		18D040FA2321713800EA3300 /* Flight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D040F92321713800EA3300 /* Flight.swift */; };
+		18D040FC2321714100EA3300 /* Hotel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D040FB2321714100EA3300 /* Hotel.swift */; };
+		18D040FE2321714A00EA3300 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D040FD2321714A00EA3300 /* Car.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		18D040E723216D0500EA3300 /* ComplexTableViewsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplexTableViewsUITests.swift; sourceTree = "<group>"; };
 		18D040E923216D0500EA3300 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18D040F623216DE300EA3300 /* MultiObjectTypesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiObjectTypesViewController.swift; sourceTree = "<group>"; };
+		18D040F92321713800EA3300 /* Flight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flight.swift; sourceTree = "<group>"; };
+		18D040FB2321714100EA3300 /* Hotel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hotel.swift; sourceTree = "<group>"; };
+		18D040FD2321714A00EA3300 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,9 +134,20 @@
 		18D040F523216DCB00EA3300 /* MultiObjectTypes */ = {
 			isa = PBXGroup;
 			children = (
+				18D040F82321712300EA3300 /* Models */,
 				18D040F623216DE300EA3300 /* MultiObjectTypesViewController.swift */,
 			);
 			path = MultiObjectTypes;
+			sourceTree = "<group>";
+		};
+		18D040F82321712300EA3300 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				18D040F92321713800EA3300 /* Flight.swift */,
+				18D040FB2321714100EA3300 /* Hotel.swift */,
+				18D040FD2321714A00EA3300 /* Car.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,7 +280,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18D040FC2321714100EA3300 /* Hotel.swift in Sources */,
 				18D040CD23216D0300EA3300 /* ComplexTableViews.xcdatamodeld in Sources */,
+				18D040FE2321714A00EA3300 /* Car.swift in Sources */,
+				18D040FA2321713800EA3300 /* Flight.swift in Sources */,
 				18D040F723216DE300EA3300 /* MultiObjectTypesViewController.swift in Sources */,
 				18D040C523216D0300EA3300 /* AppDelegate.swift in Sources */,
 			);
