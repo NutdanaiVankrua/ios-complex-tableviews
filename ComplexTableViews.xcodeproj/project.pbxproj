@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		188149DA2326074700E47804 /* ExpandableCellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188149D92326074700E47804 /* ExpandableCellViewController.swift */; };
 		18D040C523216D0300EA3300 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D040C423216D0300EA3300 /* AppDelegate.swift */; };
 		18D040CD23216D0300EA3300 /* ComplexTableViews.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18D040CB23216D0300EA3300 /* ComplexTableViews.xcdatamodeld */; };
 		18D040CF23216D0400EA3300 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18D040CE23216D0400EA3300 /* Assets.xcassets */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		188149D92326074700E47804 /* ExpandableCellViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableCellViewController.swift; sourceTree = "<group>"; };
 		18D040C123216D0300EA3300 /* ComplexTableViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ComplexTableViews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18D040C423216D0300EA3300 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18D040CC23216D0300EA3300 /* ComplexTableViews.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ComplexTableViews.xcdatamodel; sourceTree = "<group>"; };
@@ -82,6 +84,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		188149D82326071600E47804 /* ExpandableCell */ = {
+			isa = PBXGroup;
+			children = (
+				188149D92326074700E47804 /* ExpandableCellViewController.swift */,
+			);
+			path = ExpandableCell;
+			sourceTree = "<group>";
+		};
 		18D040B823216D0300EA3300 = {
 			isa = PBXGroup;
 			children = (
@@ -108,6 +118,7 @@
 				18D040C423216D0300EA3300 /* AppDelegate.swift */,
 				18D040CE23216D0400EA3300 /* Assets.xcassets */,
 				18D040CB23216D0300EA3300 /* ComplexTableViews.xcdatamodeld */,
+				188149D82326071600E47804 /* ExpandableCell */,
 				18D040D323216D0400EA3300 /* Info.plist */,
 				18D040D023216D0400EA3300 /* LaunchScreen.storyboard */,
 				18D040F523216DCB00EA3300 /* MultiObjectTypes */,
@@ -283,6 +294,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				188149DA2326074700E47804 /* ExpandableCellViewController.swift in Sources */,
 				18D041002321789C00EA3300 /* MultiObjectTypesUITableViewCell.swift in Sources */,
 				18D040FC2321714100EA3300 /* Hotel.swift in Sources */,
 				18D040CD23216D0300EA3300 /* ComplexTableViews.xcdatamodeld in Sources */,
